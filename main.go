@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-const original_file_name = "webrtc" //Name of origin without .txt
-const sum = true                    //Sum of all network traffic
+const original_file_name = "timestamps" //Name of origin without .txt
+const sum = true                        //Sum of all network traffic
 
 const includes = "64.20.34.178:8088" //Source of network traffic
 const cleanup = true                 //Clean data for postprocessing
